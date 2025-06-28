@@ -59,18 +59,21 @@
             <img src="./assets/profie-pic.jpg" alt="Manoj's Profile Picture" class="profile-pic" />
         </div>
         <div class="section__text">
-            <p class="section__text-p1">Hello I'm</p>
-            <h1 class="title">Venkata Siva Manoj Yalla</h1>
-            <p class="section__text-p2">Coder</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2"
-                    onclick="window.open('https://drive.google.com/file/d/1GDrXIMd7iXfEL6Ylig2kh7zxkQbxifW9/view', '_blank')">
-                    Download CV
-                </button>
-                <button class="btn btn-color-1" onclick="location.href='#contact'">
-                    Contact Info
-                </button>
-            </div>
+  <p class="section__text-p1">Hello, I'm</p>
+  <h1 class="title">Venkata Siva Manoj Yalla</h1>
+  <p class="section__text-p2">💻 Final-Year CSE (IoT) Student | Aspiring Software Developer | Tech Enthusiast</p>
+
+  <div class="btn-container">
+    <button class="btn btn-color-2"
+      onclick="window.open('https://drive.google.com/file/d/1GDrXIMd7iXfEL6Ylig2kh7zxkQbxifW9/view', '_blank')">
+      📄 Download CV
+    </button>
+    <button class="btn btn-color-1" onclick="location.href='#contact'">
+      📬 Contact Me
+    </button>
+  </div>
+</div>
+
             <div id="socials-container">
                 <img src="./assets/linkedin_light.png" src-light="./assets/linkedin_light.png"
                     src-dark="./assets/linkedin_dark.png" alt="linkedIn" class="icon linkedin-icon"
@@ -91,52 +94,79 @@
             <div class="section__pic-container">
                 
             </div>
-            <div class="about__details-container">
-                <div class="about-containers">
-                    <div class="details-container color-container">
-                        <img src="./assets/certifications_light.png" src-light="./assets/certifications_light.png"
-                            src-dark="./assets/certifications_dark.png" alt="certifications" class="icon about-me" />
-                        <h3>Certifications</h3>
-                        <p class="certification__title">
-                            JAVA Programmer
-                        </p>
-                        <p class="certification__subtitle">
-                            Programming Foundation with Java
-                        </p>
-                        <br>
-                        <p class="certification__title">
-                            Infosys SpringBoard
-                        </p>
-                        <p class="certification__subtitle">
-                            Infosys
-                        </p>
-                    </div>
-                    <div class="details-container color-container">
-                        <img src="./assets/education_light.png" src-light="./assets/education_light.png"
-                            src-dark="./assets/education_dark.png" alt="education" class="icon about-me" />
-                        <h3>Education</h3>
-                        <p class="education__title">
-                            B.Tech. Computer Science(Internet of Things)
-                        </p>
-                        <p class="education__subtitle">
-                            Aditya College of Engineering and Technology
-                        </p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>
-                        Hello! I am Venkata Siva Manoj Yalla, a third-year
-                        Computer Science Engineering (CSE) student at Aditya
-                        College of Engineering and Technology. I have good
-                        programming skills with quick learning ability,
-                        leadership qualities and effective communication
-                        skills. I'm committed to finding a position where I
-                        can comfortably use my skills in a reputable
-                        company.
-                    </p>
-                </div>
-            </div>
+           <div class="about__details-container">
+  <div class="about-containers">
+    <!-- Certifications -->
+    <div class="details-container color-container">
+      <img 
+        src="./assets/certifications_light.png" 
+        src-light="./assets/certifications_light.png"
+        src-dark="./assets/certifications_dark.png" 
+        alt="Certifications Icon" 
+        class="icon about-me"
+      />
+      <h3>Certifications</h3>
+
+      <div class="certification-list">
+        <div class="certification-item">
+          <p class="certification__title">Infosys Springboard</p>
+          <p class="certification__subtitle">Programming Foundations with Java</p>
         </div>
+
+        <div class="certification-item">
+          <p class="certification__title">NPTEL</p>
+          <p class="certification__subtitle">Introduction to Industry 4.0 & Industrial IoT</p>
+        </div>
+
+        <div class="certification-item">
+          <p class="certification__title">SkillDzire Workshop</p>
+          <p class="certification__subtitle">Python & Machine Learning Essentials</p>
+        </div>
+
+        <div class="certification-item">
+          <p class="certification__title">APSSDC</p>
+          <p class="certification__subtitle">Data Analysis Using Python</p>
+        </div>
+
+        <div class="certification-item">
+          <p class="certification__title">Brain-O-Vision</p>
+          <p class="certification__subtitle">National Workshop on AI & Industry 4.0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="details-container color-container">
+      <img 
+        src="./assets/education_light.png" 
+        src-light="./assets/education_light.png"
+        src-dark="./assets/education_dark.png" 
+        alt="Education Icon" 
+        class="icon about-me" 
+      />
+      <h3>Education</h3>
+      <p class="education__title">B.Tech in Computer Science (IoT)</p>
+      <p class="education__subtitle">Aditya College of Engineering & Technology<br/>2022 – 2026</p>
+      <br>
+      <p class="education__title">Intermediate (MPC)</p>
+      <p class="education__subtitle">Aditya Junior College<br/>2020 – 2022</p>
+      <br>
+      <p class="education__title">10th Standard (SSC)</p>
+      <p class="education__subtitle">Bhashyam Public School<br/>2020</p>
+    </div>
+  </div>
+
+  <!-- Introduction -->
+  <div class="text-container">
+
+      <p>
+  Hello! I'm <strong>Venkata Siva Manoj Yalla</strong>, a final-year Computer Science Engineering student specializing in the Internet of Things (IoT) at Aditya College of Engineering & Technology. I have a strong foundation in programming, data analysis, and emerging technologies. With proven leadership qualities, a quick learning mindset, and effective communication skills, I am eager to contribute to impactful projects and grow professionally in a dynamic and forward-thinking organization.
+</p>
+
+    
+  </div>
+</div>
+
         <img src="././assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
             alt="arrow-icon" class="icon arrow" onclick="location.href='#skills'" />
     </section>
@@ -149,20 +179,13 @@
                 <div class="details-container color-container">
                     <h2 class="skills__title">Programming Languages</h2>
                     <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
-                                src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
-                            <div>
-                                <h3>C</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                        
                         <article>
                             <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
                                 src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Java</h3>
-                                <p>Intermediate</p>
+                                <p>Proficient – Core Java, JDBC</p>
                             </div>
                         </article>
                         <article>
@@ -170,15 +193,23 @@
                                 src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Python</h3>
-                                <p>Intermediate</p>
+                                <p>Intermediate – Scripting, Data Analysis</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
                                 src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
                             <div>
-                                <h3>JDBC(API)</h3>
-                                <p>Intermediate</p>
+                                <h3>C</h3>
+                                <p>Intermediate – Logic Building, DSA</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
+                                src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate – JDBC, MySQL</p>
                             </div>
                         </article>
                     </div>
@@ -190,7 +221,7 @@
                             <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
                                 src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
                             <div>
-                                <h3>HTML</h3>
+                                <h3>HTML5</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
@@ -198,7 +229,7 @@
                             <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
                                 src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
                             <div>
-                                <h3>CSS</h3>
+                                <h3>CSS3</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
@@ -210,18 +241,12 @@
                                 <p>Basic</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
-                                src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
-                            <div>
-                                <h3>SQL</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                        
+                        
                     </div>
                 </div>
                 <div class="details-container color-container">
-                    <h2 class="skills__title">System Skills</h2>
+                    <h2 class="skills__title">Development Tools</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
@@ -235,8 +260,24 @@
                             <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
                                 src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
                             <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
+                                <h3>Git & GitHub</h3>
+                                <p>Intermediate – Version Control</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
+                                src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>VS Code</h3>
+                                <p>Experienced – Frontend Development</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark_light.png" src-light="./assets/checkmark_light.png"
+                                src-dark="./assets/checkmark_dark.png" alt="checkmark" class="icon" />
+                            <div>
+                                <h3>Eclipse </h3>
+                                <p>Experienced – Java Development</p>
                             </div>
                         </article>
                     </div>
@@ -254,22 +295,19 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-pizzaorder.png" alt="project-pizzaorder" class="project-img" />
+                        <img src="./assets/project-ipldashboard.png" alt="project-ipldashboard" class="project-img" />
                     </div>
-                    <h2 class="projects__title project-title">Pizza Delivery App</h2>
+                    <h2 class="projects__title project-title">IPL Player Performance Dashboard</h2>
                     <h3 class="projects__subtitle project-subtitle">
-                        A Basic Responsive Frontend Landing Page Using HTML, CSS
-                        and JavaScript
+                         IPL Player Performance Dashboard using Python, Pandas, and Matplotlib.
                     </h3>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/VenkataSivaManojYalla/PizzaDelivaryApp'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://pizza-delivary-app.netlify.app/'">
-                            Live Demo
-                        </button>
+                       
+                        
                     </div>
                 </div>
 
@@ -282,17 +320,14 @@
                     </h2>
                     <h3 class="projects__subtitle project-subtitle">
                         A Basic Responsive Portfolio Using HTML, CSS, and
-                        JavaScript
+                        JavaScript.
                     </h3>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/VenkataSivaManojYalla/MyPortfolio'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://gorgeous-platypus-b80aa3.netlify.app/'">
-                            Live Demo
-                        </button>
+                        
                     </div>
                 </div>
 
